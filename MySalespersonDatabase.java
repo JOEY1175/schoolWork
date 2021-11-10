@@ -20,7 +20,7 @@ public class MySalespersonDatabase {
                System.out.println("ERROR!!!Wrong choice!!!");
                System.out.print("Enter your choice: ");
                c=sc.nextLine();
-           }
+           } 
            //Select actions according to user choice
            if(c.equals("R")) {
                cnt=addOption(salespersons,cnt);
