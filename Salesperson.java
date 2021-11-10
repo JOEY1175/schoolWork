@@ -6,8 +6,9 @@ public class Salesperson {
    public Salesperson(int idNum, double amt) {
        id=idNum;
        sales=amt;
-   }
-   //Getters
+   } 
+   //getters
+   
    public int getId() {
        return id;
    } public double getSales() {
